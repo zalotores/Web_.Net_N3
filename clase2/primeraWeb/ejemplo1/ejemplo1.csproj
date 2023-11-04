@@ -154,8 +154,8 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <Content Include="WebForm1.aspx" />
     <Content Include="WebFormEjemplo.aspx" />
+    <Content Include="wfPrueba1.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -252,19 +252,19 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
     <Compile Include="WebFormEjemplo.aspx.cs">
       <DependentUpon>WebFormEjemplo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="WebFormEjemplo.aspx.designer.cs">
       <DependentUpon>WebFormEjemplo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfPrueba1.aspx.cs">
+      <DependentUpon>wfPrueba1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfPrueba1.aspx.designer.cs">
+      <DependentUpon>wfPrueba1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

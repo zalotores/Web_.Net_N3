@@ -1,0 +1,222 @@
+/* Color palette
+https://www.color-hex.com/color-palette/1020185
+*/
+
+body {
+    background-color: #37474f;
+}
+
+header {
+    background-image: linear-gradient( to bottom, rgba(0,0,0,0.5), rgba(0,0,0,1));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo_icon {
+    width: 3rem;
+    height: 3rem;
+    padding: auto;
+}
+
+.titulo {
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.titulo_nombre {
+    font-family: 'Orbitron', sans-serif;
+    color: #bad7ff;
+    text-align: center;
+}
+
+
+.links__idiomas_flag {
+    width: 2rem;
+    height: 2rem;    
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem 0.5rem;
+}
+
+.menu__list__item a, .volver_arriba {
+    font-family: 'Orbitron', sans-serif;
+    color:#ececec;
+    font-size: 0.75rem;
+    text-shadow: 0px 0px 3px black;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/*sobre mi*/
+
+#sobre-mi {
+    background-image: url(../assets/space_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 1rem;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    color:#ececec;
+    text-shadow: 0px 0px 3px black;
+    padding: 1rem;
+}
+
+.sobre_imagen_perfil {
+    max-width: 40%;
+    border-radius: 50%;
+}
+
+.sobre-mi_ficha {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem;
+    color:#bad7ff;
+    text-shadow: 0px 0px 3px black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sobre-mi_ficha h2 {
+    color: #bad7ff;
+}
+
+.redes_lista {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.redes__icon {
+    width: 2rem;
+    height: 2rem; 
+}
+
+.sobre-mi_bio {
+    margin: 1rem;
+    color:#bad7ff;
+    text-shadow: 0px 0px 3px black;
+    font-family: 'Montserrat', sans-serif;
+    text-indent: 2em;
+    text-align:left;
+    line-height: 1.5rem;
+    text-justify: inter-word;
+}
+
+.menu__list__item:hover, .links__idiomas_flag:hover, .redes__icon:hover{
+    transform: scale(1.05);
+}
+
+/*skills*/
+
+#skills {
+    background-color: #424242;
+    /*
+    display: grid;
+    grid-template-areas:
+        "hobbies"
+        "skills"
+        "softSkills";
+    grid-template-columns:auto auto auto;
+    grid-template-rows: auto;*/
+}
+
+.skill__icon {
+    width: 4rem;
+    height: 4rem; 
+
+}
+
+#skills {
+    padding: 0 2rem;
+}
+
+#skills h2 {
+    text-align: center;
+}
+
+#skills ul {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color:#bad7ff;
+    text-shadow: 0px 0px 3px black;
+    padding: 1rem 0 0 0;
+}
+
+.skills_hobbies {
+    display: grid;
+    grid-template:  8rem 8rem / auto auto auto;
+}
+
+.skills_skills {
+    display: grid;
+    grid-template:  8rem 8rem 8rem / auto auto auto;
+}
+
+.skills_softSkills {
+    display: grid;
+    grid-template:  8rem 8rem 8rem / auto auto;
+    margin-bottom: 10px;
+    padding: 1rem 0 1rem 0;
+}
+
+/*formacion*/
+
+.formacion_items{
+    font-family: 'Montserrat', sans-serif;
+    color:#bad7ff;
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.formacion_items_fecha {
+    color:#ececec;
+    padding: 1rem;
+}
+
+/*proyectos*/
+
+#proyectos{
+    font-family: 'Montserrat', sans-serif;
+    color:#bad7ff;
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#proyectos h3 {
+    color:#ececec;
+    padding-left: 2rem;
+}
+
+.proyectos_item {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.proyectos_item a {
+    color:#ececec;
+}
+
+footer {
+    background-image: url(../assets/banner-space.jpg);
+    font-family: 'Montserrat', sans-serif;
+    color: 	#96b4dd;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}

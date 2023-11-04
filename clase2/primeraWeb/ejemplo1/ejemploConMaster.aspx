@@ -11,4 +11,7 @@
     <div>
         <asp:Label ID="lblSaludo" runat="server" Text=""></asp:Label>
     </div>
+    <div>
+        <a href="About">LinkEjemplo</a>
+    </div>
 </asp:Content>

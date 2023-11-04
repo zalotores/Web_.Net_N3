@@ -11,7 +11,7 @@ namespace ejemplo1
 {
 
 
-    public partial class Site1
+    public partial class ejemploConMaster
     {
 
         /// <summary>

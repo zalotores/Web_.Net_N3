@@ -26,6 +26,8 @@ namespace ejemplo1
                 lblSaludo.Text = "Ese no es un nombre válido...";
             }
             txtNombre.Text = "";
+
+            Response.Redirect("wfPrueba1.aspx", false);     //false es para que no genere error al cortar thread
         }
     }
 }
